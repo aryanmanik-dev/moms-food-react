@@ -1,0 +1,80 @@
+.main-div{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.heading-section {
+  font-weight: 600 !important;
+  font-size: 60px;
+  line-height: 1;
+  font-weight: normal;
+  display: block;
+  color: #13a2b1;
+  padding-top: 3%;
+}
+.section-main {
+  border-radius: 25px;
+  box-shadow: 0px 0px 4px 0px #1a1313;
+  /* height: 700px;
+  max-height: 700px; */
+  /* background: black; */
+  background: #e6f5ffe3;
+}
+.inner-section h4,
+h5 {
+  font-weight: 600 !important;
+  font-size: 40px;
+  line-height: 1;
+  font-weight: normal;
+  display: block;
+  color: black;
+  padding-top: 1%;
+}
+.inner-section h4,
+h5 {
+  color: green;
+  font-size: 25px;
+}
+.inner-section img {
+  padding-top: 3%;
+  width: 600px;
+  max-width: 600px;
+  margin: 0px auto;
+  border-radius: 25px;
+  /* padding: 30px;  */
+  box-shadow: 0px 0px 4px 0px #000;
+}
+.sectionInner2 card img {
+  width: 200px;
+  margin: 0px auto;
+  padding: 10px;
+}
+
+.banner img {
+  width: 1300px;
+  max-width: 1300px;
+  margin: 0px auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .banner img {
+    width: 100%;
+    max-width: auto;
+    margin: 0px auto;
+  }
+
+  #carouselExampleDark{
+    margin-top: 15%;
+  }
+  .inner-section img {
+    padding-top: 3%;
+    width: 100%;
+    max-width: 100%;
+    margin: 0px auto;
+    border-radius: 25px;
+    /* padding: 30px;  */
+    box-shadow: 0px 0px 4px 0px #000;
+  }
+}
+
